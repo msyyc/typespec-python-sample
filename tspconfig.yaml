@@ -1,0 +1,7 @@
+emit:
+  - "@azure-tools/typespec-python"
+options:
+  "@azure-tools/typespec-python":
+    emitter-output-dir: "{project-root}/generated"
+    package-name: "azure-sample"
+    flavor: "azure"
