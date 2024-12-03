@@ -22,7 +22,7 @@ npm install
 
 # Generate SDK
 
-Run command then you can find the .
+Run command then you can find the generated SDK in folder `generated`. And you can change the output folder by change `emitter-output-dir` in `tspconfig.yaml`.
 ```
 tsp compile main.tsp  --emit @azure-tools/typespec-python
 ```
